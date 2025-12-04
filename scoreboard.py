@@ -6,12 +6,13 @@ import configparser
 # --- 辅助函数：获取资源路径 ---
 def resource_path(relative_path):
     """ 获取资源的绝对路径，适用于开发环境和PyInstaller打包环境 """
-    try:
-        # PyInstaller 创建一个临时文件夹，并将路径存储在 _MEIPASS 中
-        base_path = sys._MEIPASS
-    except Exception:
-        base_path = os.path.abspath(".")
-
+    if getattr(sys, 'frozen', False):
+        # 如果是打包后的可执行文件，则基路径是可执行文件所在的目录
+        base_path = os.path.dirname(sys.executable)
+    else:
+        # 如果是直接运行的脚本，则基路径是脚本所在的目录
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    
     return os.path.join(base_path, relative_path)
 
 # --- 1. 配置和初始化 ---
