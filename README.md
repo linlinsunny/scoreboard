@@ -4,7 +4,7 @@
 
 This is a simple and customizable sports scoreboard built with Pygame. It's designed for easy configuration via text files and real-time color adjustments.
 
-![Screenshot](https://raw.githubusercontent.com/linlinsunny/scoreboard/refs/heads/main/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/your-username/your-repo-name/main/screenshot.png)
 *(请将上面的链接替换为您的屏幕截图)*
 
 ---
@@ -57,6 +57,7 @@ This is a simple and customizable sports scoreboard built with Pygame. It's desi
 - `e`: Away Score +3
 - `w`: Away Score -1
 - `r`: Away Score -3
+- `0`: Reset both scores to zero.
 - `↑` (Up Arrow): Open the Color Settings panel.
 - `f`: Toggle fullscreen mode.
 - `ESC`: Quit the application.
@@ -117,6 +118,7 @@ This is a simple and customizable sports scoreboard built with Pygame. It's desi
 - `e`: 客队分数 +3
 - `w`: 客队分数 -1
 - `r`: 客队分数 -3
+- `0`: 将两队分数归零。
 - `↑` (上箭头): 打开颜色设置面板。
 - `f`: 切换全屏模式。
 - `ESC`: 退出程序。
