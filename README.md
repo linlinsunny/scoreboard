@@ -4,7 +4,7 @@
 
 This is a simple and customizable sports scoreboard built with Pygame. It's designed for easy configuration via text files and real-time color adjustments.
 
-![Screenshot](https://raw.githubusercontent.com/your-username/your-repo-name/main/screenshot.png)
+![Screenshot]([https://raw.githubusercontent.com/your-username/your-repo-name/main/screenshot.png](https://github.com/linlinsunny/scoreboard/blob/main/screenshot.png?raw=true))
 *(请将上面的链接替换为您的屏幕截图)*
 
 ---
