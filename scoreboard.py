@@ -281,6 +281,10 @@ while running:
                 elif event.key == pygame.K_r:
                     away_score_main = max(0, away_score_main - 3)
 
+                elif event.key == pygame.K_0:
+                    home_score_main = 0
+                    away_score_main = 0
+
             elif current_state == STATE_SETTINGS:
                 # --- 设置状态下的控制 ---
 
